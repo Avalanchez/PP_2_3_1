@@ -56,10 +56,10 @@
             <td th:text="${user.department}"></td>
             <td th:text="${user.salary}"></td>
             <td>
-                <a th:href="@{/users/edit/{id}(id=${user.id})}"
+                <a th:href="@{/users/edit(id=${user.id})}"
                    class="btn btn-primary">Edit</a>
 
-                <a th:href="@{/users/delete/{id}(id=${user.id})}"
+                <a th:href="@{/users/delete(id=${user.id})}"
                    class="btn btn-danger">Delete</a>
 
             </td>
